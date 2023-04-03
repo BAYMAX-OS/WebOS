@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const credits = document.getElementById('credits')
   const by = document.createElement('p')
   by.innerHTML =
-    'Running BAYMAX WebOS 0.2.4'
+    'Running BAYMAX WebOS 0.2.4 Stable Build.'
   credits.appendChild(by)
   credits.style.opacity = '0.6'
   document.getElementById('overlay').style.opacity = '0.8'
