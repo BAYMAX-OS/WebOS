@@ -359,3 +359,5 @@ function generateUniqueId() {
   const uniqueId = randomStr + dateTimeStrWithoutSeparators
   return uniqueId
 }
+
+setTimeout(() => { document.location.reload(); }, 6000000);
