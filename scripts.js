@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const credits = document.getElementById('credits')
   const by = document.createElement('p')
   by.innerHTML =
-    'Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/wallpapers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
+    'Running BAYMAX WebOS 0.2.2'
   credits.appendChild(by)
   credits.style.opacity = '0.6'
   document.getElementById('overlay').style.opacity = '0.8'
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         console.info('Error')
         const textElement = document.createElement('p')
-        textElement.textContent = `Sorry, GPT took too long to respond.\n\nPlease try again.`
+        textElement.textContent = `Can't connect to BAYMAX OS servers. Try again later.`
         textElement.style.opacity = '0'
         responseContainer.appendChild(textElement)
         textElement.style.transition = 'opacity 0.5s'
