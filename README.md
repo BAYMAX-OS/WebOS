@@ -1,4 +1,4 @@
-Welcome to BAYMAX WebOS Update Log
+BAYMAX WebOS Update Log
 
 -
 
