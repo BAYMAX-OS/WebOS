@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const credits = document.getElementById('credits')
   const by = document.createElement('p')
   by.innerHTML =
-    'Running Viridian WebOS 0.2.8 Stable Build.'
+    'Running Viridian WebOS 0.3.0 Stable Build.'
   credits.appendChild(by)
   credits.style.opacity = '0.6'
   document.getElementById('overlay').style.opacity = '0'
