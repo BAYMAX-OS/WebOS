@@ -81,14 +81,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const background = document.getElementById('background')
   background.style.backgroundImage = `url('./images/${getRandomImage()}')`
-  background.style.opacity = '100'
+  background.style.opacity = '1'
   const credits = document.getElementById('credits')
   const by = document.createElement('p')
   by.innerHTML =
     'Running Viridian WebOS 0.2.8 Stable Build.'
   credits.appendChild(by)
   credits.style.opacity = '0.6'
-  document.getElementById('overlay').style.opacity = '0.8'
+  document.getElementById('overlay').style.opacity = '0'
 
   // Hide placeholder on input focus
   input.addEventListener('focus', () => {
