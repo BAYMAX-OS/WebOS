@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const background = document.getElementById('background')
   background.style.backgroundImage = `url('./images/${getRandomImage()}')`
-  background.style.opacity = '1'
+  background.style.opacity = '100'
   const credits = document.getElementById('credits')
   const by = document.createElement('p')
   by.innerHTML =
